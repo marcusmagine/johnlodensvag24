@@ -1,0 +1,16 @@
+{
+  "name": "johnlodensvag24-archive",
+  "version": "1.0.0",
+  "description": "Local archive scraper for bosthlm.se real estate listing",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scraper.js",
+    "serve": "npx serve archive"
+  },
+  "dependencies": {
+    "playwright": "^1.44.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
